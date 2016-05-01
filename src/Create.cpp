@@ -74,7 +74,21 @@ void Create::createLoop(){
             userInput = "5";
         }
         else if(userInput == "6"){
-
+            cout<<"To start building your dungeon, try creating a new Room element."<<endl;
+            cout<<"A Room will take in a Name and a Description. You can change the Description later, but the Name is permanent.\n"<<endl;
+            cout<<"Once you have made your Rooms, you can connect them making Connectors."<<endl;
+            cout<<"Connectors will take in a Name, Starting Room, Ending Room, Keyword, and Description."<<endl;
+            cout<<"(When you make a connector, you can tell the program to make it go both ways. By default it will only go in one direction.)"<<endl;
+            cout<<"The Keyword is what the player will type in to interact with the Connector while playing."<<endl;
+            cout<<"\tTip! You can set the starting and ending Room to the same location to have an interactable object withing one Room!\n"<<endl;
+            cout<<"In the edit function, you can choose to edit either a Room or a Connector."<<endl;
+            cout<<"Editing a room will let you change the Description, or make it an Exit."<<endl;
+            cout<<"\tTip! You can have multiple exits!"<<endl;
+            cout<<"Editing a Connector will let you change the Description or Keyword.\n"<<endl;
+            cout<<"Once you are done making your dungeon, you can save it to a text file, to be loaded in while playing."<<endl;
+            cout<<"\t!! If you don't save, all your work will be lost !!"<<endl;
+            cout<<"Have fun making your own Dungeon!"<<endl;
+            //added after the due-date, for future clarification 
         }
         else if(userInput == "7"){
             cout<<"\nWould you like to return to the main menu? (y/n)\t";
